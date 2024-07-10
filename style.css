@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: font;
+    src: url("Poppins/Poppins-Regular.ttf");
+}
+
+.navbar-brand img{
+    height: 70px;
+    width: 100px;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.nav-link:hover{
+    color: rgb(211, 14, 14) !important;
+}
+.img{
+    width: 250px;
+}
+.card:hover{
+    transform: scale(1.10)!important;
+}
+.bi{
+    font-size: 50px;
+    cursor: pointer;
+}
+.bi:hover{
+    color: black !important;
+}
+.card{
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: rgb(105, 1, 1) 0px 4px 12px;
+}
+.card-row{
+    position: relative;
+    top: 50px;
+}
+.bg-danger{
+    color: white;
+}
+.btn-dark{
+    box-shadow: rgb(105, 1, 1) 0px 4px 12px;
+    background-color: white !important;
+    color: black !important;
+   padding: 10px !important;
+   width: 100px !important;
+}
+.form-control{
+    box-shadow: rgb(105, 1, 1) 0px 4px 12px;
+    border: none;
+}
